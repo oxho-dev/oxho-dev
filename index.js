@@ -19,7 +19,7 @@ client.on('messageCreate', (message) => {
     userMessageData.count += 1;
 
     if (userMessageData.count >= 5) {
-        message.channel.send(`WAG SPAM KUPAL KABA BOSS ${message.author}?!`);
+        message.channel.send(`TANGINAMO BA ${message.author}?!`);
         userMessageData.count = 0; // Reset the counter after sending the warning
     }
 
@@ -42,8 +42,8 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["BOT NI SAITO", "KUPAL KABA MAN?"];
-const statusTypes = [ 'dnd', 'idle'];
+const statusMessages = ["ALAGAD NI OXHO"];
+const statusTypes = [ 'dnd'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
