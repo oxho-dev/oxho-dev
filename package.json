@@ -1,0 +1,16 @@
+{
+  "name": "Saito",
+  "version": "3.0.0",
+  "description": "BOTGHOST STATUS REMOVER AND SPAM RESPONSE",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Saito(javinarjj)", 
+  "license": "MIT", 
+  "dependencies": {
+    "discord.js": "^14.16.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.20.0"
+  }
+}
